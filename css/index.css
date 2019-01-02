@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(70, 235, 20);
+}
+
+
+.cabeçalho img {
+    
+    width: 110px;
+    height: 110px;
+    padding-left: 540px;
+    
+} 
+.figcaption1{
+    padding-left:510px;
+    color: rgb(6, 78, 6);
+    font-style:italic; 
+}  
+
+ .titulo h1{
+     border-bottom-left-radius: 30px; /* esse seletor cria abolonhamento a borda esquerda em baixo*/
+     border-bottom-right-radius: 30px;/* esse seletor cria abolonhamento a borda direito em baixo*/
+     background-color: rgb(255, 255, 255);
+     color: blue;
+     padding-left: 560px;
+     font-size: 30px
+
+}
+.article1 h2{
+    color: blue;
+
+}
+.p1{
+    text-align: justify;/* esse seletor alinha organizando o texto*/
+    
+}
+.article1 h3 {
+font-size: 22px;
+font-style: unset;
+background-color: rgb(114, 172, 80);
+width:180px;
+height: 30px;
+border-style: inset;
+}
+.article2 img {
+    border-style: solid;
+    width: calc(50% - 20px);
+    width: 700px;
+    height: 600px;
+    margin-bottom:40px; /* esse seletor diminui ou aumenta o espaço em  baixo na imagem*/
+    margin-left:290px; 
+                          
+}
+ .figcaption2{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 560px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+.figcaption3{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 550px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+
+.figcaption4{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 560px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+.figcaption5{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 560px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+.figcaption6{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 560px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+.figcaption7{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 550px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+.figcaption8{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 580px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+    
+.figcaption9{
+    margin-bottom: 70px;/* esse seletor cria uma margem empurrando para baixo o que estiver em baixo (bottom)
+                         empurrando nomes e figuras para cima */ 
+    margin-left: 550px;/* esse seletor cria uma margem empurrando para esquerda o que estiver na  esquerda (left)
+                         empurrando nomes e figuras para esquerda*/ 
+    font-size: 40px;
+    color: rgb(241, 0, 0);
+}
+@media(min-width: 600px){  /*resposividade*/
+
+
+
+    body{
+        background-color:chocolate;
+        
+    }
+    .article2 img{
+        width: calc(50% - 20px);/* calcula 50% da tela */
+
+   }

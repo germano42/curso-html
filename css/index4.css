@@ -1,0 +1,30 @@
+body{
+    background-color: chartreuse;
+
+}
+h1{
+    background-color: coral;
+    padding-left: 590px;
+    color: blue;
+    border-bottom-left-radius: 30px; /* esse seletor cria abolonhamento a borda esquerda em baixo*/
+    border-bottom-right-radius: 30px;/* esse seletor cria abolonhamento a borda direito em baixo*/
+}
+a{
+    text-decoration: none;
+    background-color: rgb(49, 165, 49);
+    color: gold;
+    font-size: 25px;
+    border-style:groove;
+    float:right;
+}
+h2{
+    color: rgb(255, 60, 0);
+    font-size: 30px;
+    font-style: italic;
+}
+p{
+    text-align: justify;/* esse seletor alinha organizando o texto*/
+}
+img{
+    border-style: groove;
+}
