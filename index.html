@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <!-- tag sepador com linhas -->
+            <legend>Conta</legend>
+            <!--essa tag infoma o nome -->
+            <div>
+                <!--essa tag divide-->
+                <label>Email:</label>
+                <!--essa tag dar um nome a o input-->
+                <input type="text">
+            </div>
+            <div>
+                <label>Senha:</label>
+                <input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+            <div>
+                <label>Nome:</label>
+                <input type="text" placeholder=" EX .Nome">
+            </div>
+            <div>
+                <label>Telefone:</label>
+                <input type="text" placeholder="(DDD) 9 9999 9999">
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <label>Masculino</label>
+                <input type="radio" value="masculino" name="sexo" checked>
+                <label>Feminino</label>
+                <input type="radio" value="feminino" nome="sexo">
+            </div>
+
+            <div>
+                <label>Data:</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Foto de perfil:</label>
+                <input type="text">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
